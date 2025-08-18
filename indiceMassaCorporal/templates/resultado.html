@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    RESULTADO
+{% endblock title %}
+
+{% block body %}
+    <h1>RESULTADO</h1>
+
+    <p>peso: {{ peso }} Kg</p>
+    <p>altura: {{ altura }} m</p>
+
+    <p>Índice de massa corporal: {{ resultado }} </p>
+
+    <a href="{% url 'index' %}">voltar</a>
+
+{% endblock body %}
