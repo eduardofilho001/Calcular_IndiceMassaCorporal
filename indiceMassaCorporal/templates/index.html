@@ -11,8 +11,7 @@
     <form action="{% url 'resultado' %}" method="post">
         {% csrf_token %}
 
-        Peso: <input type="number" name="peso" id="" step="any" required> Kg <br><br>
-        Altura: <input type="number" name="altura" id="" step="any" required> m <br><br>
+        {{ form }}
 
         <input type="submit" value="Enviar">
     </form>
