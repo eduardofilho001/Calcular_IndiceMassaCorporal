@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(0, 76, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+form {
+    display: flex;
+}
