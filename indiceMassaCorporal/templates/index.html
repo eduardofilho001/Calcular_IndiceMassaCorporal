@@ -11,7 +11,7 @@
     <form action="{% url 'resultado' %}" method="post">
         {% csrf_token %}
 
-        {{ form }}
+        {{ form.as_table }}
 
         <input type="submit" value="Calcular">
     </form>
