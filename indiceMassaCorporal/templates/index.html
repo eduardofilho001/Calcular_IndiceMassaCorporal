@@ -11,8 +11,10 @@
     <form action="{% url 'resultado' %}" method="post">
         {% csrf_token %}
 
-        {{ form.as_table }}
-
+        Peso: {{ form.peso }}
+            <br><br>
+        Altura: {{ form.altura }}
+            <br><br>
         <input type="submit" value="Calcular">
     </form>
     
