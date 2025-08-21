@@ -4,9 +4,10 @@ body {
     color: white;
 }
 
+div {
+    display: flex;
+}
+
 input {
-    border-top: 2cm;
-    border-bottom: 2cm;
-    border-right: 0.5cm;
-    border-left: 0.5cm;
+    border-radius: 3cm, 1cm;
 }
