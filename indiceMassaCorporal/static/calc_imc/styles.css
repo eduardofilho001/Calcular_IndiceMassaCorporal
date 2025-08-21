@@ -11,3 +11,6 @@ div {
 input {
     border-radius: 3cm, 1cm;
 }
+button {
+    border-radius: 1cm,0.5cm; border-color: aqua;padding: auto;
+}

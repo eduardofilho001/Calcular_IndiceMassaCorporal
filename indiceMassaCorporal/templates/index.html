@@ -10,16 +10,21 @@
 
     <form action="{% url 'resultado' %}" method="post">
         {% csrf_token %}
-        <div>
-            <p>Peso:</p> {{ form.peso }}
-                <br><br>
-        </div>
-        
-        <div>
-            <p>Altura:</p> {{ form.altura }}
-                <br><br>
-        </div>
-        <input type="submit" value="Calcular">
+
+        <fieldset>
+            <div>
+                Peso: {{ form.peso }}
+                    <br><br>
+            </div>
+    
+            <div>
+                Altura: {{ form.altura }}
+                    <br><br>
+            </div>
+            
+            <button type="submit">Calcular</button>
+        </fieldset>
+
     </form>
     
 {% endblock body %}
